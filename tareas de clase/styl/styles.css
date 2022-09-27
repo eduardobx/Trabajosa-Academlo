@@ -1,0 +1,44 @@
+.grid{
+ height: 90vh;
+ width: 40%;
+ margin: 0 auto;
+ display: grid;
+ grid-template-columns: repeat(4 , 1fr);
+ grid-template-rows: repeat( 6 , 1fr);
+ gap: 8px;
+ border: 2px solid aqua;
+ padding: 15px;
+ border-radius: 10px;
+
+
+}
+
+.grid_conte{
+  border-radius: 5%;
+  background-color: aqua;
+
+}
+.cud1{
+  grid-column: 1 / 3;
+  grid-row: 1/ 3;
+
+}
+
+.cud5{
+  grid-row: 2 / 4;;
+
+}
+.cud9{
+  grid-column: 1 / 3;
+  
+}
+
+.cud11{
+  grid-row: 4 / 6;
+  grid-column: 4 / 5;
+
+}
+.cud13{
+  grid-row: 5 / 7;
+  grid-column: 2 / 4;
+}
